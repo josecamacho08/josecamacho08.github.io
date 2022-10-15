@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        a:link {
+            color: #A3BCB6;
+        }
+        a:visited {
+            color: #39603D;
+            background-color: transparent;
+            text-decoration: none;
+        }
+        ul{
+            margin-left: 10px;
+        }
+        li {
+            font-size: 20px;
+        }
+        h3 {
+            font-size: 35px;
+        }
+        h2 {
+            font-size: 30px;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .header {
+            grid-area: header;
+            background-color:#DADED4;
+            padding: 3px;
+            padding-left:10px;
+            padding-bottom: 10px;
+            
+            text-align:left;
+            font-size: 20px;
+        }
+
+        .grid-container {
+            grid-template-columns:min-content auto;
+            padding-right: 10px;
+            grid-column-gap: 10px;
+            display: grid;
+            grid-template-areas:
+    'header header header header header header'
+    'left middle middle middle middle middle'
+            'footer footer footer footer footer footer'
+        }
+
+        .left {
+            grid-area: left;
+            height: 700px;
+            width: 100%;
+        }
+
+        .middle {
+            grid-row:fill;
+            grid-area: middle;
+            width: 100%;
+            height: auto;
+        }
+        .logo {
+            border-style: dashed;
+            width: 175px;
+            text-align: center;
+            margin-left: 40px;
+            margin-right: 40px;
+        }
+
+        .grid-container2 {
+            display: grid;
+            grid-template-columns: auto;
+            padding: 10px;
+            row-gap: 10px;
+            float: left;
+
+        }
+        .grid-item2 {
+            padding: 20px;
+            font-size: 20px;
+            text-align: left;
+            background-color:#39603D ;
+        }
+
+        .gridcontainer3 {
+            display: grid;
+            grid-template-columns: min-content auto;
+            padding: 10px;
+        }
+        .grid-item3 {
+            font-size: 20px;
+            float: left;
+        }
+
+        .footer {
+            grid-area: footer;
+            background-color:#DADED4;
+            padding: 10px;
+            text-align: left
+        }
+    </style>
+    <title>Homework 2</title>
+</head>
+<body>
+
+<div class="grid-container">
+    <div class="header">
+        <div class="gridcontainer3">
+            <div class="grid-item3"><img src="imgs/car_logo.png" style="width: 100px; padding-right: 144px" alt="car_logo"></div>
+            <div class="grid-item3"><h1 style="float: left">Honest Jacks Autos</h1></div>
+        </div>
+    </div>
+    <div class="left" style="background-color:#A3BCB6">
+        <h2 style="padding-left: 2px">September Sale!</h2>
+        <ul>
+            <li>Special Financing</li>
+            <li>Free Floor Mats</li>
+            <li>Free oil changes for life!</li>
+        </ul>
+        <div class="logo" style="background-color:#A3BCB6"
+        <p>Contacts Us!</p>
+        <img src="imgs/contact.png" style="width: 100px" alt="contact">
+        </div>
+    </div>
+    <div class="middle" style="background-color:#A3BCB6;"><h3 style="padding-left:5px">Car Specials</h3>
+        <div class="grid-container2">
+            <div class="grid-item2"><img src="imgs/fancyCar.png" style="width: 200px;
+             float: left" alt="fancyCar"><p style="padding-left: 300px">This amazing car has only 25,000 miles</p>
+            </div>
+            <div class="grid-item2"><img src="imgs/classCar2.png" style="width: 200px;
+             float: left" alt="classCar2"><p style="padding-left: 100px;float: left;margin-right: 40">
+                A classic beauty. Slick, fast and in great shape.</p>
+            </div>
+            <div class="grid-item2"><img src="imgs/convertCar.png" style="width: 200px;
+             float: left" alt="convertCar"><p style="padding-left: 300px">Only 50,000 miles on the cool convertible</p></div>
+            <div class="grid-item2"><img src="imgs/VW.png" style="width: 200px;
+             float: left" alt="VW"><p style="padding-left: 300px">Everyone loves a VW beetle. It ain't fast but its small.</p></div>
+        </div>
+    </div>
+    <div class="footer">
+        <p>Using the<a href="https://hookagency.com/blog/website-color-schemes/"> Greenery + Pearl Website Color Scheme</a></p>
+    </div>
+</body>
+</html>

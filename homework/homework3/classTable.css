@@ -1,0 +1,29 @@
+table{
+    border: solid black 5px;
+}
+td{
+    color: black;
+}
+html{
+    background-color: #23B5BC;
+}
+
+.leftbox{
+    background-color: #23B5BC;
+}
+.navb{
+    background-color: #838686;
+}
+th{
+    color: black;
+    background-color: #23B5BC;
+}
+tr:nth-child(2) {background-color: green;}
+tr:nth-child(3) {background-color: red;}
+tr:nth-child(4) {background-color: #FFFF8F;}
+tr:nth-child(5) {background-color: red;}
+tr:nth-child(6) {background-color: red;}
+tr:nth-child(7) {background-color: red;}
+tr:nth-child(8) {background-color: red;}
+tr:nth-child(9) {background-color: red;}
+tr:nth-child(10) {background-color: red;}

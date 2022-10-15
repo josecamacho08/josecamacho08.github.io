@@ -10,7 +10,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -31,12 +33,18 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/camac/WebstormProjects/Computer Dev/first.html",
+    "list.type.of.created.stylesheet": "CSS",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\camac\Documents\GitHub\josecamacho08.github.io" />
+      <recent name="C:\Users\camac\Documents\GitHub\josecamacho08.github.io\homework\homework3\imgs" />
+      <recent name="C:\Users\camac\Documents\GitHub\josecamacho08.github.io\inClass" />
+      <recent name="C:\Users\camac\Documents\GitHub\josecamacho08.github.io\homework\homework 3" />
+      <recent name="C:\Users\camac\Documents\GitHub\josecamacho08.github.io\homework\homework 3\imgs" />
+      <recent name="C:\Users\camac\Documents\GitHub\josecamacho08.github.io\random" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -47,7 +55,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664977766029</updated>
-      <workItem from="1664977767461" duration="1685000" />
+      <workItem from="1664977767461" duration="22508000" />
+      <workItem from="1665579182375" duration="14894000" />
+      <workItem from="1665627243605" duration="18000" />
+      <workItem from="1665752260371" duration="1578000" />
     </task>
     <servers />
   </component>
